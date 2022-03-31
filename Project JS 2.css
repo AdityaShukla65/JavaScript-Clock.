@@ -1,0 +1,49 @@
+h1.firstclock {
+    text-align:center;
+    font-family:'Ubuntu';
+}
+div#clockContainer {
+    position:relative; /* Because the below given absolute positon or child element are relative to this element*/
+    margin: 1.5rem auto;
+    height:30rem;
+    width:30rem;
+    background: url('clock.png') no-repeat;
+    background-size: 100%;
+}
+#hour, #minute, #second {
+    position: absolute;
+    background-color: black;
+    border-radius: 1rem;
+    transform-origin: bottom;
+}
+#hour {
+    height: 26%;
+    width: 1.75%;
+    top: 24.2%;
+    left: 48.882%;
+    opacity: 0.95;
+}
+#minute {
+    height: 31%;
+    width: 1.5%;
+    top: 18.5%;
+    left: 49%;
+    opacity:0.95;
+}
+#second {
+    height: 34%;
+    width: 1.25%;
+    top: 16%;
+    left: 49.25%;
+    opacity: 0.95;
+    background-color: rgb(255, 14, 14);
+}
+div.design {
+    position: absolute;
+    height: 2.1rem;
+    width: 2.1rem;
+    background-color: black;
+    border-radius: 8rem;
+    margin-left: 13.95rem;
+    margin-top: 13.85rem;
+}
